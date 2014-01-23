@@ -1,0 +1,2 @@
+Avec le design de "pok_accueil", il liste simplement les sous-page de la page courante.<br />
+Si on met ce template sur la page "Groupes" on aura la liste des groupes du site.

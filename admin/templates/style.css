@@ -1,0 +1,283 @@
+body {
+	margin: auto;
+	background: #ececee;
+  font-family: Verdana, arial, serif;
+  font-size: 0.8em;
+}
+.title {
+	background: #222222;
+	color: #fff;
+	font-size: 12px;
+	padding: 20px;
+}
+
+.bouton_index {
+  border: 1px solid #999;
+  float: left;
+  padding: 5px; margin: 5px;
+  text-align: center;
+}
+.bouton_index:hover { background: #DDD; }
+.bouton_index a:hover { text-decoration: none; }
+
+/* ----------------------
+  POURCENTAGE
+------------------------- */
+div.stats { margin: 5px 50px; }
+div.stats ul li {margin-top: 3px; }
+div.stats ul li  div.pourcent {
+  float: left;
+  border: 1px solid #000;
+  margin-right: 10px;
+}
+div.stats ul li  div.pourcent div.remplissage { background: #88C; }
+
+/* ----------------------
+  VOIR/CACHER
+------------------------- */
+a.toggle, button.voir {
+  border: 1px solid #333;
+  background: #CCC;
+}
+a.toggle { padding: 0 2px; }
+a.toggle:hover { text-decoration: none; background: #DDD; }
+a.toggle:active { background: #999; }
+button.voir {
+  float: right;
+  font-size: 0.8em;
+}
+
+
+
+div.select, div.erreur, div.valide, div.avertissement, .border_radius_6, .bouton_index {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+div.select { margin: 6px 0; padding: 6px 15px; background: #BBB; min-height: 1.8em; }
+div.select p { margin: 3px; padding: 0; }
+div.select form { display: inline; }
+div.select_page {
+  margin: 3px;
+  float: right;
+}
+div.erreur, div.valide, div.avertissement { 
+  margin: 6px 0; padding: 6px 15px; 
+  font-weight: bold; text-align: center;
+}
+div.erreur { background: #DE4545; }
+div.valide { background: #13DE13; }
+div.avertissement { background: #DEAA13; }
+div.select a.bouton {
+  border: 1px solid #333;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  padding: 2px 10px;
+  background: #9a9a9a;
+  text-decoration: none;
+}
+div.select a.bouton:hover {
+  border: 1px solid #666;
+  background: #ccc;
+}
+div.select a.bouton:active {
+  border: 1px solid #000;
+  background: #eee;
+}
+
+
+
+.title a { color: #fff; }
+.content a { color: #000; }
+a { text-decoration: none; outline: none; }
+a:hover { text-decoration: underline; }
+.title .on { font-size: 30px }
+
+#onglets {
+	font: 14px Verdana, arial, serif;
+	list-style-type: none;
+	padding-bottom: 32px;
+	margin: 0 0 0 -30px;
+	background: #222;
+}
+#onglets li {
+	float: left;
+	height: 30px;
+	margin: 2px 2px 0 5px !important;
+	margin: 4px 2px 0 5px;  /* Pour IE  */
+	background-color: #555;
+}
+#onglets li.active {
+	background-color: #ececee;
+	margin: 0px -3px 0 0px !important;
+	padding: 3px;
+	font-weight: bold;
+}
+#onglets a {
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 7px;
+}
+#onglets li.active a {
+	color: #222;
+}
+#onglets a:hover {
+	background: #ececee;
+	color: #222;
+}
+.content {
+	padding: 0 40px 20px 40px;
+	margin: 20px auto;
+	background: #ececee;
+}
+
+form.form_admin_modif_create label {
+	display: block;
+	width: 200px;
+	float: left;
+}
+form div.contenu, div.label {
+  margin-bottom: 20px;
+}
+div.label {
+  float: left;
+  width: 150px;
+}
+form .contenu {
+  margin-right: 360px;
+  margin-left: 155px;
+}
+form .contenu input, form .contenu textarea {
+  width: 99%;
+}
+#menu_select {
+  float: right;
+  width: 280px;
+  margin-right: 10px;
+  background: #bbb;
+  padding: 0 20px;
+}
+
+table {
+  width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+
+.dossier tr.titre th { 
+	font-size: 1.4em;
+	text-align: left;
+	padding: 2px 30px;
+	background: #999999;
+}
+.dossier tr.partie th { background: #AAA; }
+tr.checked { background: #FC9 !important; }
+tr.checked:hover { background: #FDA !important; }
+.dossier tr.pair { background: #fff; }
+.dossier tr:hover { background: #fff; }
+.error  tr.titre th { background: #a00; }
+.error  tr.partie th { background: #f22; }
+.error tr { background: #f99; }
+.error tr.pair { background: #f55; }
+.error tr:hover { background: #f55; }
+.dossier th, .dossier td { border: 1px solid black; }
+.dossier th { padding: 0 10px; }
+.dossier th.option { width: 1%; }
+.dossier td { padding: 2px 5px; }
+
+a img { border: none; }
+fieldset { padding: 10px 15px; }
+
+.head { font-weight: bold; }
+#Nav { padding: 0; margin: 3px; }
+#Nav div { display: inline; }
+#Nav div ul { display: none; font-weight: normal; }
+#Nav div ul li { padding: 0 5px; }
+#Nav div ul li:hover { background: #444; }
+#Nav div ul li a { text-decoration: none; color: #fff; }
+#Nav div:hover {
+  border: 0;
+  position: relative;
+  z-index: 500;
+  text-decoration:none;
+}
+#Nav div:hover ul {
+  font-style: normal;
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: -10px;
+  padding: 2px;
+  color: #000;
+  background: #222;
+  width: 130px;
+  list-style-type: none;
+}
+
+
+/* ----------------------
+  LISTE DES TEMPLATES
+------------------------- */
+#liste_template li {  
+  border-top: 1px solid black;
+  padding-bottom: 10px;
+  list-style-type: none;
+  clear: both;
+}
+#liste_template li div.screen {
+  width: 100px;
+  float: left;
+}
+#liste_template li div.desc {
+  margin-left: 120px;
+}
+
+
+/* ----------------------
+  INFO BULLE
+------------------------- */
+strong.infoerreur, strong.info {
+  position: relative;
+  font-weight: normal;
+}
+/* Info simple */
+strong.info span  { display: none; }
+strong.infoerreur span.all:hover, strong.info:hover { z-index: 500; }
+strong.infoerreur storng, strong.info storng { font-weight: bold; }
+strong.info:hover span {
+  display: inline;
+  position: absolute;
+  white-space: nowrap;
+  left: 1em;
+  top: 2em;
+  background: #DDD;
+  color: #111;
+  border: 1px solid #333;
+  padding: 10px;
+  max-width: 50em;
+}
+/* Info erreur */
+strong.infoerreur span.all:hover {
+  opacity: 0.3;
+}
+strong.infoerreur span.text, strong.infoerreur span.fleche {
+  position: absolute;
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+strong.infoerreur span.text {
+  border: 1px solid black;
+  top: -2em;
+  left: -12.5em;
+  padding: 3px;
+  background: #F00;
+}
+strong.infoerreur span.fleche {
+  display: block;
+  width: 20px;
+  height: 6px;
+  left: 0.5em;
+  top: -0.15em;
+  background: url(../images/erreur_fleche_bas_droite.png) no-repeat bottom right
+}

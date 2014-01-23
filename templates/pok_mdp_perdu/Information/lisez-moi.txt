@@ -1,0 +1,1 @@
+Baser sur la même structure que "pok_accueil". Ce template permet de créer un nouveau mot de passe et de l'envoyer par mail.

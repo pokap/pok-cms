@@ -1,0 +1,3 @@
+Pour indexer la liste grossière des forums.<br />
+Affiche une liste de sous-pages pour les catégories et les sous-sous-page pour les forums.<br />
+Vous pouvez utiliser "pok_forum_inter" comme template pour la liste des forums, et "pok_forum_view" pour chaque forums.

@@ -1,0 +1,3 @@
+Comme le template "pok_forum_index" il affiche une liste de forums mais cette fois sans catégorie qui les sépares.<br />
+Il affiche simplement ces sous-dossiers en les affichants comme forums de la même façon que "pok_forum_index".<br />
+Pour ces sous-dossiers utiliser un template comme "pok_forum_view".

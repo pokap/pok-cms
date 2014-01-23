@@ -1,0 +1,3 @@
+Grâce à ce template, vous pouvez gérez tout un systeme de message privée pour chaque membre du site.<br />
+Un seul dossier peut utiliser ce template.<br />
+Il est conseiller de mettre le dossier sans cache.

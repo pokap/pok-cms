@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ressources>
+  <page>
+    <page_ordre>0</page_ordre>
+    <page_nom>Profil Forum</page_nom>
+    <page_description>profil du membre lol</page_description>
+    <template>pok_forum_membre_profil</template>
+    <arborescence>~/profil_forum</arborescence>
+    <categorie>2</categorie>
+    <ressources>
+      <article>
+        <article_titre>profil_forum_index</article_titre>
+        <article_chapo></article_chapo>
+        <article_texte>a:3:{s:4:"lieu";s:0:"";s:7:"website";s:0:"";s:9:"signature";s:0:"";}</article_texte>
+        <niveau_comments>0</niveau_comments>
+        <brouillon>0</brouillon>
+      </article>
+    </ressources>
+  </page>
+</ressources>

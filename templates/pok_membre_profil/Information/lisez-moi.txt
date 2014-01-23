@@ -1,0 +1,1 @@
+Toujours dans le même design que "pok_accueil", ce template est utilisé pour permettre aux membres de modifier leur e-mail et mot de passe.

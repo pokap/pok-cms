@@ -1,0 +1,2 @@
+Baser sur la même structure que "pok_accueil". Permet aux visiteurs de s'inscrire sur le site. Envoie un mail à l'inscription.<br />
+Si USER_ENABLE_MODE est à 1, un clé est générer et l'utilisateur doit l'activer avec le controller "valide.php".

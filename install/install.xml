@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+- Installation basic de POK
+- Version 1.0
+- 04/02/2010
+- By Florent Denis
+-->
+<install>
+  <!-- Table Article -->
+  <article>
+    <article_id>1</article_id>
+    <page_id>1</page_id>
+    <article_date_creer><sql>NOW()</sql></article_date_creer>
+    <article_date_reviser><sql>NOW()</sql></article_date_reviser>
+    <article_date_max>0000-00-00 00:00:00</article_date_max>
+    <article_auteur>1</article_auteur>
+    <article_chapo>&lt;p&gt;Bienvenue sur Pok !&lt;/p&gt;</article_chapo>
+    <article_texte>&lt;p&gt;Je suis le tout premier message du site.&lt;br /&gt;Je vous remercie de m'avoir installer et j'esp&amp;egrave;re que je vais vous plaire pendant le plus longtemps possible.&lt;br /&gt;Si vous avez le moindre probl&amp;egrave;me, vous pouvez allez sur le site officiel.&lt;/p&gt;&lt;p&gt;&lt;a title=&quot;Site officiel du d&amp;eacute;veloppeur du cms&quot; href=&quot;http://www.florentdenis.net/&quot; target=&quot;_blank&quot;&gt;http://www.florentdenis.net/&lt;/a&gt;&lt;/p&gt;</article_texte>
+    <article_titre>Premier article !</article_titre>
+    <article_slug>premier-article</article_slug>
+    <article_niveau>1</article_niveau>
+    <brouillon>0</brouillon>
+    <niveau_comments>1</niveau_comments>
+    <article_parent>0</article_parent>
+    <count>1</count>
+  </article>
+  <article>
+    <article_id>2</article_id>
+    <page_id>1</page_id>
+    <article_date_creer><sql>NOW()</sql></article_date_creer>
+    <article_date_reviser><sql>NOW()</sql></article_date_reviser>
+    <article_date_max>0000-00-00 00:00:00</article_date_max>
+    <article_auteur>1</article_auteur>
+    <article_chapo></article_chapo>
+    <article_texte>A mon propos, je suis le premier commentaire de votre site.</article_texte>
+    <article_titre>Premier commentaire</article_titre>
+    <article_slug>premier-commentaire</article_slug>
+    <article_niveau>2</article_niveau>
+    <brouillon>0</brouillon>
+    <niveau_comments>0</niveau_comments>
+    <article_parent>1</article_parent>
+    <count>0</count>
+  </article>
+  <!-- Table categorie -->
+  <categorie>
+    <cat_id>1</cat_id>
+    <cat_nom>Accueil</cat_nom>
+    <taxon>both</taxon>
+  </categorie>
+  <categorie>
+    <cat_id>2</cat_id>
+    <cat_nom>Profil</cat_nom>
+    <taxon>both</taxon>
+  </categorie>
+  <categorie>
+    <cat_id>3</cat_id>
+    <cat_nom>Menu</cat_nom>
+    <taxon>page</taxon>
+  </categorie>
+  <!-- Table cat_relations -->
+  <cat_relation>
+    <relation_id>1</relation_id>
+    <cat_id>1</cat_id>
+    <terms>page</terms>
+  </cat_relation>
+  <cat_relation>
+    <relation_id>1</relation_id>
+    <cat_id>1</cat_id>
+    <terms>article</terms>
+  </cat_relation>
+  <cat_relation>
+    <relation_id>2</relation_id>
+    <cat_id>2</cat_id>
+    <terms>page</terms>
+  </cat_relation>
+  <cat_relation>
+    <relation_id>3</relation_id>
+    <cat_id>2</cat_id>
+    <terms>page</terms>
+  </cat_relation>
+  <cat_relation>
+    <relation_id>4</relation_id>
+    <cat_id>2</cat_id>
+    <terms>page</terms>
+  </cat_relation>
+  <cat_relation>
+    <relation_id>5</relation_id>
+    <cat_id>2</cat_id>
+    <terms>page</terms>
+  </cat_relation>
+  <cat_relation>
+    <relation_id>6</relation_id>
+    <cat_id>2</cat_id>
+    <terms>page</terms>
+  </cat_relation>
+  <cat_relation>
+    <relation_id>7</relation_id>
+    <cat_id>3</cat_id>
+    <terms>page</terms>
+  </cat_relation>
+  <!-- Table droit -->
+  <droit>
+    <cat_id>1</cat_id>
+    <groupe_id>1</groupe_id>
+    <vlp>1</vlp>
+    <euna>0</euna>
+    <raa>0</raa>
+    <blr>0</blr>
+    <etla>0</etla>
+    <stla>0</stla>
+    <ssa>0</ssa>
+    <mda>0</mda>
+  </droit>
+  <droit>
+    <cat_id>1</cat_id>
+    <groupe_id>2</groupe_id>
+    <vlp>1</vlp>
+    <euna>1</euna>
+    <raa>1</raa>
+    <blr>0</blr>
+    <etla>0</etla>
+    <stla>0</stla>
+    <ssa>0</ssa>
+    <mda>0</mda>
+  </droit>
+  <droit>
+    <cat_id>2</cat_id>
+    <groupe_id>1</groupe_id>
+    <vlp>1</vlp>
+    <euna>0</euna>
+    <raa>0</raa>
+    <blr>0</blr>
+    <etla>0</etla>
+    <stla>0</stla>
+    <ssa>0</ssa>
+    <mda>0</mda>
+  </droit>
+  <droit>
+    <cat_id>2</cat_id>
+    <groupe_id>2</groupe_id>
+    <vlp>1</vlp>
+    <euna>0</euna>
+    <raa>0</raa>
+    <blr>0</blr>
+    <etla>0</etla>
+    <stla>0</stla>
+    <ssa>0</ssa>
+    <mda>0</mda>
+  </droit>
+  <droit>
+    <cat_id>3</cat_id>
+    <groupe_id>1</groupe_id>
+    <vlp>1</vlp>
+    <euna>0</euna>
+    <raa>0</raa>
+    <blr>0</blr>
+    <etla>0</etla>
+    <stla>0</stla>
+    <ssa>0</ssa>
+    <mda>0</mda>
+  </droit>
+  <droit>
+    <cat_id>3</cat_id>
+    <groupe_id>2</groupe_id>
+    <vlp>1</vlp>
+    <euna>0</euna>
+    <raa>0</raa>
+    <blr>0</blr>
+    <etla>0</etla>
+    <stla>0</stla>
+    <ssa>0</ssa>
+    <mda>0</mda>
+  </droit>
+  <!-- Table membre_groupe -->
+  <membre_groupe>
+    <membre_id>1</membre_id>
+    <groupe_id>2</groupe_id>
+    <principal>1</principal>
+  </membre_groupe>
+  <!-- Table page -->
+  <page>
+    <page_id>1</page_id>
+    <page_ordre>0</page_ordre>
+    <page_nom>Accueil</page_nom>
+    <page_description>Mon site avec POK.</page_description>
+    <template>pok_accueil</template>
+    <nonlu>0</nonlu>
+    <arborescence></arborescence>
+  </page>
+  <page>
+    <page_id>2</page_id>
+    <page_ordre>0</page_ordre>
+    <page_nom>Membres</page_nom>
+    <page_description>Liste des membres du site.</page_description>
+    <template>pok_membre</template>
+    <nonlu>0</nonlu>
+    <arborescence>membres</arborescence>
+  </page>
+  <page>
+    <page_id>3</page_id>
+    <page_ordre>0</page_ordre>
+    <page_nom>Groupes</page_nom>
+    <page_description>Liste des groupes du site.</page_description>
+    <template>pok_groupe</template>
+    <nonlu>0</nonlu>
+    <arborescence>groupes</arborescence>
+  </page>
+  <page>
+    <page_id>4</page_id>
+    <page_ordre>0</page_ordre>
+    <page_nom>%PSEUDO_ADMIN%</page_nom>
+    <page_description>Profil de %PSEUDO_ADMIN%</page_description>
+    <template>pok_membre_profil</template>
+    <nonlu>0</nonlu>
+    <arborescence>membres/%STRSCS_PSEUDO_ADMIN%</arborescence>
+  </page>
+  <page>
+    <page_id>5</page_id>
+    <page_ordre>0</page_ordre>
+    <page_nom>Visiteurs</page_nom>
+    <page_description>Groupe des visiteurs.</page_description>
+    <template>pok_accueil</template>
+    <nonlu>0</nonlu>
+    <arborescence>groupes/visiteurs</arborescence>
+  </page>
+  <page>
+    <page_id>6</page_id>
+    <page_ordre>0</page_ordre>
+    <page_nom>Utilisateurs</page_nom>
+    <page_description>Groupe des utilisateurs.</page_description>
+    <template>pok_accueil</template>
+    <nonlu>0</nonlu>
+    <arborescence>groupes/utilisateurs</arborescence>
+  </page>
+  <page>
+    <page_id>7</page_id>
+    <page_ordre>0</page_ordre>
+    <page_nom>RSS</page_nom>
+    <page_description>Flux RSS principal.</page_description>
+    <template>pok_rss</template>
+    <nonlu>0</nonlu>
+    <arborescence>rss</arborescence>
+  </page>
+  <!-- Table groupe -->
+  <groupe>
+    <groupe_id>1</groupe_id>
+    <page_id>5</page_id>
+    <couleur>000000</couleur>
+  </groupe>
+  <groupe>
+    <groupe_id>2</groupe_id>
+    <page_id>6</page_id>
+    <couleur>000000</couleur>
+  </groupe>
+  <!-- Table utilisateur -->
+  <membre>
+    <membre_id>1</membre_id>
+    <membre_pseudo>%PSEUDO_ADMIN%</membre_pseudo>
+    <page_id>4</page_id>
+    <membre_mdp>%MDP_ADMIN%</membre_mdp>
+    <membre_email></membre_email>
+    <membre_inscrit><sql>NOW()</sql></membre_inscrit>
+    <membre_visite><sql>NOW()</sql></membre_visite>
+    <statut>A</statut>
+    <cle><sql>NULL</sql></cle>
+    <valide>1</valide>
+  </membre>
+</install>

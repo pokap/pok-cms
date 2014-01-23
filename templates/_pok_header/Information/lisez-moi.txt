@@ -1,0 +1,2 @@
+Affiche la liste des 10 derniers articles du dossier courant.<br />
+Il utilise le template "_pok_header" pour le haut de page, et "_pok_footer" pour le menu droit et le bas de page.

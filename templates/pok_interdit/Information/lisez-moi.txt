@@ -1,0 +1,1 @@
+Baser sur la même structure que "pok_accueil". Il affiche simplement un moyen de ce connecter si on est déconnecté. Sinon on peut se déconnecter ou voir son profil.
